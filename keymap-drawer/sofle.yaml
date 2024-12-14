@@ -146,16 +146,16 @@ layers:
   - '&F12'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
-  - '&N2'
-  - '&N3'
-  - '&N4'
-  - '&N5'
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - '&N6'
-  - '&N7'
-  - '&N8'
-  - '&N9'
-  - '&N0'
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
@@ -164,10 +164,10 @@ layers:
   - $$mdi:play-pause$$
   - $$mdi:skip-next$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - '&MOVE_LEFT'
-  - '&MOVE_DOWN'
-  - '&MOVE_UP'
-  - '&MOVE_RIGHT'
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '{'
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -192,6 +192,6 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:progress-download$$', type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
