@@ -88,7 +88,7 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
   - END
-  - trans
+  - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - {t: '-', s: _}
   - {t: '=', s: +}
